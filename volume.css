@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #75CDFF;
+}
+.fundo{
+    background: #75CDFF;
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cauculadora{
+    display: block;
+    position: absolute;
+    width: 800px;
+    background: rgba(255, 255, 255, 0.3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px;
+}
+.txt{
+    display: block;
+}
+.txt h1{
+    text-align: center;
+    color: #B0AA04;
+}
+.txt h2{
+    color: #FC2B40;
+    text-align: center;
+}
+.img{
+    text-align: center;
+}
+.volume{
+    color: #B0AA04;
+    font-weight: 800;
+}
+.compri{
+    color: #1E7FB0;
+    font-weight: 800;
+}
+.altu{
+    color: #1E7FB0;
+    font-weight: 800;
+}
+.larg{
+    color: #1E7FB0;
+    font-weight: 800;
+}
+.botao{
+    display:flex;
+   
+}
+.botao button{
+    margin: 10px ;
+    width: 100px;
+    height: 25px;
+    border-color: #FCF52B;
+    background-color:#1E7FB0;
+    color: #FCF52B;
+    border-radius: 10px;
+}
+.input input{
+    border: 2px solid #B0AA04;
+    border-radius: 5px;
+}
+.bg{
+    display: flex;
+}
+.result{
+    background-color: rgb(117, 205, 255,0);
+    color: #1E7FB0;
+    font-weight: 800;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.litros{
+    background-color: rgb(117, 205, 255,0);
+    color:#B0AA04;
+    font-weight: 800;
+    align-items: center;
+    margin-top: 10px;
+}
