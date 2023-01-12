@@ -36,11 +36,20 @@ header img{
     font-size: 1.1em;
 }
 .container{
-    background-color: rgb(52, 74, 112,0.1);
+    background-color: rgba(255, 255, 255);
     display: block;
    text-align: center;
    border-radius: 20px;
    width: 800px;
    margin: 60px auto;
    padding: 20px;
+}
+.conteudo h1{
+    color: #123570;
+    margin-bottom: 10px;
+}
+.conteudo a{
+    text-decoration: none;
+    color: #123570;
+    font-weight: 700;
 }

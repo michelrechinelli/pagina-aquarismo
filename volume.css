@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: #75CDFF;
+    background: #6F9FF2;
 }
 .fundo{
     background: #75CDFF;
@@ -15,7 +15,7 @@ body{
     display: block;
     position: absolute;
     width: 800px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -27,29 +27,29 @@ body{
 }
 .txt h1{
     text-align: center;
-    color: #B0AA04;
+    color: #2670F0;
 }
 .txt h2{
-    color: #FC2B40;
+    color: #E0B967;
     text-align: center;
 }
 .img{
     text-align: center;
 }
 .volume{
-    color: #B0AA04;
+    color: #E0B967;
     font-weight: 800;
 }
 .compri{
-    color: #1E7FB0;
+    color: #2670F0;
     font-weight: 800;
 }
 .altu{
-    color: #1E7FB0;
+    color: #2670F0;
     font-weight: 800;
 }
 .larg{
-    color: #1E7FB0;
+    color: #2670F0;
     font-weight: 800;
 }
 .botao{
@@ -60,13 +60,13 @@ body{
     margin: 10px ;
     width: 100px;
     height: 25px;
-    border-color: #FCF52B;
-    background-color:#1E7FB0;
-    color: #FCF52B;
+    border-color: #E0B967;
+    background-color:#2670F0;
+    color: #E0B967;
     border-radius: 10px;
 }
 .input input{
-    border: 2px solid #B0AA04;
+    border: 2px solid #E0B967;
     border-radius: 5px;
 }
 .bg{
@@ -74,7 +74,7 @@ body{
 }
 .result{
     background-color: rgb(117, 205, 255,0);
-    color: #1E7FB0;
+    color: #2670F0;
     font-weight: 800;
     align-items: center;
     margin-top: 10px;
@@ -84,7 +84,7 @@ body{
 
 .litros{
     background-color: rgb(117, 205, 255,0);
-    color:#B0AA04;
+    color:#E0B967;
     font-weight: 800;
     align-items: center;
     margin-top: 10px;
