@@ -53,3 +53,10 @@ header img{
     color: #123570;
     font-weight: 700;
 }
+.conteudo p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.termostato{
+    display: flex;
+}
