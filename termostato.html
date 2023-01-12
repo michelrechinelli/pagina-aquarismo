@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termostato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="volume.css">
+    <script src="termostato.js"></script>
+</head>
+<body>
+    <header>
+        <img src="midia/Aquaríssimo SP (1).png" alt="">
+        <ul class="menu">
+            
+                <li><a href="index.html">Home</a></li>
+           
+                <li><a href="cauculadora.html">Calculadora</a></li>
+          
+                <li><a href="termostato.html">Cauculo de lumens</a></li>
+        
+                <li><a href="">Fauna</a></li>
+            
+        </ul>
+</header>
+    
+<div class="fundo">
+    <div class="cauculadora">
+
+        <div class="txt">
+            <h1>Calculadora Luméns</h1>
+            <h2>Por favor incira a quantidade em Litros</h2>
+        </div>
+        <div class="img">
+            <img id="lamp" src="midia/luz.jpg" alt="">
+        </div>
+
+        <fieldset class="input">
+            <legend class="volume">Cauculo volume</legend>
+            <label class="compri"> Comprimento</label>
+            <input type="number" id="n1">
+
+            <label class="altu">Altura</label>
+            <input type="number" id="n2">
+
+            <label class="larg">Largura</label>
+            <input type="number" id="n3">
+
+            <div class="botao">
+                <button id="calc" onclick="mult()">Caucular</button>
+            <div class="bg">
+                <p class="result"></p>
+                <p class="litros">Litros</p>
+            </div>
+            </div>
+        </fieldset>
+        
+</body>
+</html>
