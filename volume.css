@@ -89,3 +89,18 @@ body{
     align-items: center;
     margin-top: 10px;
 }
+.lampadas{
+    background-color: rgb(117, 205, 255,0);
+    color:#E0B967;
+    font-weight: 800;
+    align-items: center;
+    margin: 10px 0 0 10px;
+}
+.result2{
+    background-color: rgb(117, 205, 255,0);
+    color: #2670F0;
+    font-weight: 800;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}

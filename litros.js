@@ -5,6 +5,7 @@ function mult(){
     var n4 = 1000;
    
     var m  = n1*n2*n3/n4; 
+    var n = ' Litros'
 
-    document.querySelector(".result").innerHTML = m;
+    document.querySelector(".result").innerHTML = m + n;
 } 
