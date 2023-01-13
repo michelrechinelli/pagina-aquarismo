@@ -54,9 +54,13 @@ header img{
     font-weight: 700;
 }
 .conteudo p{
-    margin-bottom: 20px;
+   
     text-align: justify;
+    margin: 10px 40px 0 40px;
 }
 .termostato{
     display: flex;
+}
+.peixinhos{
+    max-width: 400px;
 }
