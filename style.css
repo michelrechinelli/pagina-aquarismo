@@ -33,7 +33,7 @@ header img{
 }
 .menu li a:hover{
     color: #E0B967;
-    font-size: 1.1em;
+    transform: scale(1.1);
 }
 .container{
     background-color: rgba(255, 255, 255);
